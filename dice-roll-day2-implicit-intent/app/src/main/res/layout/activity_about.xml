@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imgAccount"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:background="#FF0000"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/geeksforgeeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgAccount"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/imgAccount"
+        android:text="GeeksforGeeks"
+        android:background="#00FF00"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/gf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geeksforgeeks"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/imgAccount"
+        android:text="G F"
+        android:background="#00FF00"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/geeksforgeeks"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:background="#00FF00"
+        android:text="G "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/geeksforgeeks2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gf"
+        android:layout_marginEnd="32dp"
+        android:layout_toEndOf="@id/imgAccount"
+        android:background="#00FF00"
+        android:text="GeeksforGeeks"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_me"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
