@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/purple_200"
+        android:src="@drawable/ic_baseline_image_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvOverview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgPoster"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Judul Film" />
+
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt tortor blandit, consequat eros in, interdum mauris. Nulla tempor nunc quis ipsum euismod fringilla. Nullam vitae sapien at lectus accumsan venenatis quis a metus. Integer quam nunc, venenatis eu enim quis, bibendum viverra ante. Aenean et molestie tellus. Integer luctus eros at tellus pretium, non auctor nulla aliquet. Phasellus porta nunc ut dui viverra vehicula eu ut orci. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet orci ullamcorper, congue ligula in, vestibulum mi. In hac habitasse platea dictumst. Aliquam erat volutpat. Nam dignissim eros vitae ornare cursus. Vestibulum sodales nec arcu a sodales. Aliquam dapibus ex quam, sed efficitur erat commodo a." />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
