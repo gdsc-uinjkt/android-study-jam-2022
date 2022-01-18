@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_movie"
+        android:title="@string/menu_movie"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_movie_24"/>
+    <item
+        android:id="@+id/menu_tv_series"
+        android:title="@string/menu_tv_series"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_tv_24"/>
+</menu>
