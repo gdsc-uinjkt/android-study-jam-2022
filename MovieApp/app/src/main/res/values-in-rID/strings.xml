@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="this_app_has_been_created_by">Aplikasi ini dibuat oleh</string>
+    <string name="menu_movie">Film</string>
+    <string name="menu_tv_series">Tayangan TV</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="label_language">Bahasa</string>
+    <string name="label_dark_mode">Mode Malam</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="action_save">Simpan</string>
+</resources>
